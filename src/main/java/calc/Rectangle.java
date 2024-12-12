@@ -1,3 +1,5 @@
+package calc;
+
 public class Rectangle {
 
     double length, width;
