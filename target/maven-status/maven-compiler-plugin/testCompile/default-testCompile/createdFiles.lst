@@ -1,3 +1,11 @@
-CalculatorTest.class
-RectangleTest.class
-EvenOddCheckerTest.class
+jUnit\calc\RectangleTest.class
+jUnit\people\NotRelevantExpTest.class
+testNG\calc\RectangleTest.class
+jUnit\people\NotRelevantAgeTest.class
+jUnit\people\SkillTest.class
+jUnit\calc\CalculatorTest.class
+jUnit\people\RelevantAgeTest.class
+testNG\calc\CalculatorTest.class
+testNG\calc\EvenOddCheckerTest.class
+jUnit\calc\EvenOddCheckerTest.class
+jUnit\people\RelevantExpTest.class

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-14T00:00:11 MSK" name="Surefire suite" finished-at="2024-12-14T00:00:11 MSK" duration-ms="102">
+    <groups>
+    </groups>
+    <test started-at="2024-12-14T00:00:11 MSK" name="Surefire test" finished-at="2024-12-14T00:00:11 MSK" duration-ms="102">
+      <class name="testNG.calc.CalculatorTest">
+        <test-method is-config="true" signature="createInstance()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="createInstance" finished-at="2024-12-14T00:00:11 MSK" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInstance -->
+        <test-method signature="divideByZero()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="divideByZero" finished-at="2024-12-14T00:00:11 MSK" duration-ms="3" status="PASS">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at calc.Calculator.divide(Calculator.java:18)
+at testNG.calc.CalculatorTest.divideByZero(CalculatorTest.java:80)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divideByZero -->
+        <test-method is-config="true" signature="createInstance()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="createInstance" finished-at="2024-12-14T00:00:11 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInstance -->
+        <test-method signature="dotResultAfterDivide()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="dotResultAfterDivide" finished-at="2024-12-14T00:00:11 MSK" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dotResultAfterDivide -->
+        <test-method is-config="true" signature="createInstance()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="createInstance" finished-at="2024-12-14T00:00:11 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInstance -->
+        <test-method signature="negativeDividePositive()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="negativeDividePositive" finished-at="2024-12-14T00:00:11 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeDividePositive -->
+        <test-method is-config="true" signature="createInstance()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="createInstance" finished-at="2024-12-14T00:00:11 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInstance -->
+        <test-method signature="negativeMultiplyPositive()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="negativeMultiplyPositive" finished-at="2024-12-14T00:00:11 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeMultiplyPositive -->
+        <test-method signature="negativeNumsSubtract()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="negativeNumsSubtract" finished-at="2024-12-14T00:00:11 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeNumsSubtract -->
+        <test-method is-config="true" signature="createInstance()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="createInstance" finished-at="2024-12-14T00:00:11 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInstance -->
+        <test-method signature="negativeNumsSum()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="negativeNumsSum" finished-at="2024-12-14T00:00:11 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeNumsSum -->
+        <test-method is-config="true" signature="createInstance()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="createInstance" finished-at="2024-12-14T00:00:11 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInstance -->
+        <test-method signature="positiveDivideNegative()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="positiveDivideNegative" finished-at="2024-12-14T00:00:11 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveDivideNegative -->
+        <test-method is-config="true" signature="createInstance()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="createInstance" finished-at="2024-12-14T00:00:11 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInstance -->
+        <test-method signature="positiveMultiplyNegative()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="positiveMultiplyNegative" finished-at="2024-12-14T00:00:11 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveMultiplyNegative -->
+        <test-method is-config="true" signature="createInstance()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="createInstance" finished-at="2024-12-14T00:00:11 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInstance -->
+        <test-method is-config="true" signature="createInstance()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="createInstance" finished-at="2024-12-14T00:00:11 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInstance -->
+        <test-method signature="positiveNumsDivide()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="positiveNumsDivide" finished-at="2024-12-14T00:00:11 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveNumsDivide -->
+        <test-method is-config="true" signature="createInstance()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="createInstance" finished-at="2024-12-14T00:00:11 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInstance -->
+        <test-method signature="positiveNumsMultiply()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="positiveNumsMultiply" finished-at="2024-12-14T00:00:11 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveNumsMultiply -->
+        <test-method is-config="true" signature="createInstance()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="createInstance" finished-at="2024-12-14T00:00:11 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInstance -->
+        <test-method signature="positiveNumsSubtract()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="positiveNumsSubtract" finished-at="2024-12-14T00:00:11 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveNumsSubtract -->
+        <test-method signature="positiveNumsSum()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="positiveNumsSum" finished-at="2024-12-14T00:00:11 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveNumsSum -->
+        <test-method is-config="true" signature="createInstance()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="createInstance" finished-at="2024-12-14T00:00:11 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInstance -->
+      </class> <!-- testNG.calc.CalculatorTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
