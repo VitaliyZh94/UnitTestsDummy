@@ -1,17 +1,849 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+<testng-results ignored="0" total="53" passed="53" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-14T00:00:11 MSK" name="Surefire suite" finished-at="2024-12-14T00:00:11 MSK" duration-ms="102">
+  <suite started-at="2024-12-16T23:18:51 MSK" name="Surefire suite" finished-at="2024-12-16T23:18:51 MSK" duration-ms="75">
     <groups>
     </groups>
-    <test started-at="2024-12-14T00:00:11 MSK" name="Surefire test" finished-at="2024-12-14T00:00:11 MSK" duration-ms="102">
-      <class name="testNG.calc.CalculatorTest">
-        <test-method is-config="true" signature="createInstance()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="createInstance" finished-at="2024-12-14T00:00:11 MSK" duration-ms="21" status="PASS">
+    <test started-at="2024-12-16T23:18:51 MSK" name="Surefire test" finished-at="2024-12-16T23:18:51 MSK" duration-ms="75">
+      <class name="people.TestNGgetSkillTest">
+        <test-method signature="skillTestAQA(int)[pri:0, instance:people.TestNGgetSkillTest@5ae50ce6]" started-at="2024-12-16T23:18:51 MSK" name="skillTestAQA" data-provider="t" finished-at="2024-12-16T23:18:51 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skillTestAQA -->
+        <test-method signature="skillTestAQA(int)[pri:0, instance:people.TestNGgetSkillTest@5ae50ce6]" started-at="2024-12-16T23:18:51 MSK" name="skillTestAQA" data-provider="t" finished-at="2024-12-16T23:18:51 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skillTestAQA -->
+        <test-method signature="skillTestQA(int)[pri:0, instance:people.TestNGgetSkillTest@5ae50ce6]" started-at="2024-12-16T23:18:51 MSK" name="skillTestQA" data-provider="t" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skillTestQA -->
+        <test-method signature="skillTestQA(int)[pri:0, instance:people.TestNGgetSkillTest@5ae50ce6]" started-at="2024-12-16T23:18:51 MSK" name="skillTestQA" data-provider="t" finished-at="2024-12-16T23:18:51 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skillTestQA -->
+      </class> <!-- people.TestNGgetSkillTest -->
+      <class name="calc.TestNGEvenOddCheckerTest">
+        <test-method signature="checkConsoleText()[pri:0, instance:calc.TestNGEvenOddCheckerTest@769f71a9]" started-at="2024-12-16T23:18:51 MSK" name="checkConsoleText" finished-at="2024-12-16T23:18:51 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkConsoleText -->
+        <test-method is-config="true" signature="getConsoleText()[pri:0, instance:calc.TestNGEvenOddCheckerTest@769f71a9]" started-at="2024-12-16T23:18:51 MSK" name="getConsoleText" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getConsoleText -->
+        <test-method signature="checkEvenConsoleText()[pri:0, instance:calc.TestNGEvenOddCheckerTest@769f71a9]" started-at="2024-12-16T23:18:51 MSK" name="checkEvenConsoleText" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEvenConsoleText -->
+        <test-method is-config="true" signature="getConsoleText()[pri:0, instance:calc.TestNGEvenOddCheckerTest@769f71a9]" started-at="2024-12-16T23:18:51 MSK" name="getConsoleText" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getConsoleText -->
+        <test-method signature="checkOddConsoleText()[pri:0, instance:calc.TestNGEvenOddCheckerTest@769f71a9]" started-at="2024-12-16T23:18:51 MSK" name="checkOddConsoleText" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOddConsoleText -->
+        <test-method is-config="true" signature="getConsoleText()[pri:0, instance:calc.TestNGEvenOddCheckerTest@769f71a9]" started-at="2024-12-16T23:18:51 MSK" name="getConsoleText" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getConsoleText -->
+        <test-method signature="evenCheck()[pri:0, instance:calc.TestNGEvenOddCheckerTest@769f71a9]" started-at="2024-12-16T23:18:51 MSK" name="evenCheck" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evenCheck -->
+        <test-method is-config="true" signature="getConsoleText()[pri:0, instance:calc.TestNGEvenOddCheckerTest@769f71a9]" started-at="2024-12-16T23:18:51 MSK" name="getConsoleText" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getConsoleText -->
+        <test-method is-config="true" signature="getConsoleText()[pri:0, instance:calc.TestNGEvenOddCheckerTest@769f71a9]" started-at="2024-12-16T23:18:51 MSK" name="getConsoleText" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getConsoleText -->
+        <test-method signature="oddCheck()[pri:0, instance:calc.TestNGEvenOddCheckerTest@769f71a9]" started-at="2024-12-16T23:18:51 MSK" name="oddCheck" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oddCheck -->
+      </class> <!-- calc.TestNGEvenOddCheckerTest -->
+      <class name="people.TestNGnotRelevantAgeTest">
+        <test-method signature="setNotRelevantAgeToConstructorAQA(int)[pri:0, instance:people.TestNGnotRelevantAgeTest@6f96c77]" started-at="2024-12-16T23:18:51 MSK" name="setNotRelevantAgeToConstructorAQA" data-provider="t" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[66]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Age must be from 18 to 65]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Age must be from 18 to 65
+at people.Person.ageAdmission(Person.java:23)
+at people.Person.<init>(Person.java:9)
+at people.Engineer.<init>(Engineer.java:9)
+at people.AutomatedEngineer.<init>(AutomatedEngineer.java:8)
+at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToConstructorAQA(TestNGnotRelevantAgeTest.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setNotRelevantAgeToConstructorAQA -->
+        <test-method signature="setNotRelevantAgeToConstructorAQA(int)[pri:0, instance:people.TestNGnotRelevantAgeTest@6f96c77]" started-at="2024-12-16T23:18:51 MSK" name="setNotRelevantAgeToConstructorAQA" data-provider="t" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Age must be from 18 to 65]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Age must be from 18 to 65
+at people.Person.ageAdmission(Person.java:23)
+at people.Person.<init>(Person.java:9)
+at people.Engineer.<init>(Engineer.java:9)
+at people.AutomatedEngineer.<init>(AutomatedEngineer.java:8)
+at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToConstructorAQA(TestNGnotRelevantAgeTest.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setNotRelevantAgeToConstructorAQA -->
+        <test-method signature="setNotRelevantAgeToConstructorQA(int)[pri:0, instance:people.TestNGnotRelevantAgeTest@6f96c77]" started-at="2024-12-16T23:18:51 MSK" name="setNotRelevantAgeToConstructorQA" data-provider="t" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[66]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Age must be from 18 to 65]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Age must be from 18 to 65
+at people.Person.ageAdmission(Person.java:23)
+at people.Person.<init>(Person.java:9)
+at people.Engineer.<init>(Engineer.java:9)
+at people.ManualEngineer.<init>(ManualEngineer.java:8)
+at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToConstructorQA(TestNGnotRelevantAgeTest.java:25)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setNotRelevantAgeToConstructorQA -->
+        <test-method signature="setNotRelevantAgeToConstructorAQA(int)[pri:0, instance:people.TestNGnotRelevantAgeTest@6f96c77]" started-at="2024-12-16T23:18:51 MSK" name="setNotRelevantAgeToConstructorAQA" data-provider="t" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-20]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Age must be from 18 to 65]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Age must be from 18 to 65
+at people.Person.ageAdmission(Person.java:23)
+at people.Person.<init>(Person.java:9)
+at people.Engineer.<init>(Engineer.java:9)
+at people.AutomatedEngineer.<init>(AutomatedEngineer.java:8)
+at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToConstructorAQA(TestNGnotRelevantAgeTest.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setNotRelevantAgeToConstructorAQA -->
+        <test-method signature="setNotRelevantAgeToConstructorQA(int)[pri:0, instance:people.TestNGnotRelevantAgeTest@6f96c77]" started-at="2024-12-16T23:18:51 MSK" name="setNotRelevantAgeToConstructorQA" data-provider="t" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Age must be from 18 to 65]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Age must be from 18 to 65
+at people.Person.ageAdmission(Person.java:23)
+at people.Person.<init>(Person.java:9)
+at people.Engineer.<init>(Engineer.java:9)
+at people.ManualEngineer.<init>(ManualEngineer.java:8)
+at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToConstructorQA(TestNGnotRelevantAgeTest.java:25)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setNotRelevantAgeToConstructorQA -->
+        <test-method signature="setNotRelevantAgeToConstructorQA(int)[pri:0, instance:people.TestNGnotRelevantAgeTest@6f96c77]" started-at="2024-12-16T23:18:51 MSK" name="setNotRelevantAgeToConstructorQA" data-provider="t" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-20]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Age must be from 18 to 65]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Age must be from 18 to 65
+at people.Person.ageAdmission(Person.java:23)
+at people.Person.<init>(Person.java:9)
+at people.Engineer.<init>(Engineer.java:9)
+at people.ManualEngineer.<init>(ManualEngineer.java:8)
+at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToConstructorQA(TestNGnotRelevantAgeTest.java:25)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setNotRelevantAgeToConstructorQA -->
+        <test-method signature="setNotRelevantAgeToSetterAQA(int)[pri:0, instance:people.TestNGnotRelevantAgeTest@6f96c77]" started-at="2024-12-16T23:18:51 MSK" name="setNotRelevantAgeToSetterAQA" data-provider="t" finished-at="2024-12-16T23:18:51 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[66]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Age must be from 18 to 65]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Age must be from 18 to 65
+at people.Person.ageAdmission(Person.java:23)
+at people.Person.setAge(Person.java:18)
+at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToSetterAQA(TestNGnotRelevantAgeTest.java:31)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setNotRelevantAgeToSetterAQA -->
+        <test-method signature="setNotRelevantAgeToSetterAQA(int)[pri:0, instance:people.TestNGnotRelevantAgeTest@6f96c77]" started-at="2024-12-16T23:18:51 MSK" name="setNotRelevantAgeToSetterAQA" data-provider="t" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-20]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Age must be from 18 to 65]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Age must be from 18 to 65
+at people.Person.ageAdmission(Person.java:23)
+at people.Person.setAge(Person.java:18)
+at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToSetterAQA(TestNGnotRelevantAgeTest.java:31)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setNotRelevantAgeToSetterAQA -->
+        <test-method signature="setNotRelevantAgeToSetterAQA(int)[pri:0, instance:people.TestNGnotRelevantAgeTest@6f96c77]" started-at="2024-12-16T23:18:51 MSK" name="setNotRelevantAgeToSetterAQA" data-provider="t" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Age must be from 18 to 65]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Age must be from 18 to 65
+at people.Person.ageAdmission(Person.java:23)
+at people.Person.setAge(Person.java:18)
+at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToSetterAQA(TestNGnotRelevantAgeTest.java:31)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setNotRelevantAgeToSetterAQA -->
+        <test-method signature="setNotRelevantAgeToSetterQA(int)[pri:0, instance:people.TestNGnotRelevantAgeTest@6f96c77]" started-at="2024-12-16T23:18:51 MSK" name="setNotRelevantAgeToSetterQA" data-provider="t" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[66]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Age must be from 18 to 65]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Age must be from 18 to 65
+at people.Person.ageAdmission(Person.java:23)
+at people.Person.setAge(Person.java:18)
+at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToSetterQA(TestNGnotRelevantAgeTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setNotRelevantAgeToSetterQA -->
+        <test-method signature="setNotRelevantAgeToSetterQA(int)[pri:0, instance:people.TestNGnotRelevantAgeTest@6f96c77]" started-at="2024-12-16T23:18:51 MSK" name="setNotRelevantAgeToSetterQA" data-provider="t" finished-at="2024-12-16T23:18:51 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-20]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Age must be from 18 to 65]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Age must be from 18 to 65
+at people.Person.ageAdmission(Person.java:23)
+at people.Person.setAge(Person.java:18)
+at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToSetterQA(TestNGnotRelevantAgeTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setNotRelevantAgeToSetterQA -->
+        <test-method signature="setNotRelevantAgeToSetterQA(int)[pri:0, instance:people.TestNGnotRelevantAgeTest@6f96c77]" started-at="2024-12-16T23:18:51 MSK" name="setNotRelevantAgeToSetterQA" data-provider="t" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Age must be from 18 to 65]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Age must be from 18 to 65
+at people.Person.ageAdmission(Person.java:23)
+at people.Person.setAge(Person.java:18)
+at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToSetterQA(TestNGnotRelevantAgeTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setNotRelevantAgeToSetterQA -->
+      </class> <!-- people.TestNGnotRelevantAgeTest -->
+      <class name="calc.TestNGRectangleTest">
+        <test-method signature="getAreaWithDoubleNums()[pri:0, instance:calc.TestNGRectangleTest@4c9f8c13]" started-at="2024-12-16T23:18:51 MSK" name="getAreaWithDoubleNums" finished-at="2024-12-16T23:18:51 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAreaWithDoubleNums -->
+        <test-method signature="getAreaWithFirsNegativeNum()[pri:0, instance:calc.TestNGRectangleTest@4c9f8c13]" started-at="2024-12-16T23:18:51 MSK" name="getAreaWithFirsNegativeNum" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAreaWithFirsNegativeNum -->
+        <test-method signature="getAreaWithNegativeNums()[pri:0, instance:calc.TestNGRectangleTest@4c9f8c13]" started-at="2024-12-16T23:18:51 MSK" name="getAreaWithNegativeNums" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAreaWithNegativeNums -->
+        <test-method signature="getAreaWithPositiveNums()[pri:0, instance:calc.TestNGRectangleTest@4c9f8c13]" started-at="2024-12-16T23:18:51 MSK" name="getAreaWithPositiveNums" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAreaWithPositiveNums -->
+        <test-method signature="getAreaWithZeroNums()[pri:0, instance:calc.TestNGRectangleTest@4c9f8c13]" started-at="2024-12-16T23:18:51 MSK" name="getAreaWithZeroNums" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAreaWithZeroNums -->
+        <test-method signature="getAreaWithSecondNegativeNum()[pri:0, instance:calc.TestNGRectangleTest@4c9f8c13]" started-at="2024-12-16T23:18:51 MSK" name="getAreaWithSecondNegativeNum" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAreaWithSecondNegativeNum -->
+        <test-method signature="getDoubleWidth()[pri:0, instance:calc.TestNGRectangleTest@4c9f8c13]" started-at="2024-12-16T23:18:51 MSK" name="getDoubleWidth" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDoubleWidth -->
+        <test-method signature="getDoubleLength()[pri:0, instance:calc.TestNGRectangleTest@4c9f8c13]" started-at="2024-12-16T23:18:51 MSK" name="getDoubleLength" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDoubleLength -->
+        <test-method signature="getNegativeLength()[pri:0, instance:calc.TestNGRectangleTest@4c9f8c13]" started-at="2024-12-16T23:18:51 MSK" name="getNegativeLength" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNegativeLength -->
+        <test-method signature="getNegativeWidth()[pri:0, instance:calc.TestNGRectangleTest@4c9f8c13]" started-at="2024-12-16T23:18:51 MSK" name="getNegativeWidth" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNegativeWidth -->
+        <test-method signature="getPositiveLength()[pri:0, instance:calc.TestNGRectangleTest@4c9f8c13]" started-at="2024-12-16T23:18:51 MSK" name="getPositiveLength" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPositiveLength -->
+        <test-method signature="getPositiveWidth()[pri:0, instance:calc.TestNGRectangleTest@4c9f8c13]" started-at="2024-12-16T23:18:51 MSK" name="getPositiveWidth" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPositiveWidth -->
+        <test-method signature="setNegativeLength()[pri:0, instance:calc.TestNGRectangleTest@4c9f8c13]" started-at="2024-12-16T23:18:51 MSK" name="setNegativeLength" finished-at="2024-12-16T23:18:51 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setNegativeLength -->
+        <test-method signature="setDoubleWidth()[pri:0, instance:calc.TestNGRectangleTest@4c9f8c13]" started-at="2024-12-16T23:18:51 MSK" name="setDoubleWidth" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDoubleWidth -->
+        <test-method signature="setDoubleLength()[pri:0, instance:calc.TestNGRectangleTest@4c9f8c13]" started-at="2024-12-16T23:18:51 MSK" name="setDoubleLength" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDoubleLength -->
+        <test-method signature="setNegativeWidth()[pri:0, instance:calc.TestNGRectangleTest@4c9f8c13]" started-at="2024-12-16T23:18:51 MSK" name="setNegativeWidth" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setNegativeWidth -->
+        <test-method signature="setPositiveLength()[pri:0, instance:calc.TestNGRectangleTest@4c9f8c13]" started-at="2024-12-16T23:18:51 MSK" name="setPositiveLength" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPositiveLength -->
+        <test-method signature="setPositiveWidth()[pri:0, instance:calc.TestNGRectangleTest@4c9f8c13]" started-at="2024-12-16T23:18:51 MSK" name="setPositiveWidth" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPositiveWidth -->
+        <test-method signature="setZeroLength()[pri:0, instance:calc.TestNGRectangleTest@4c9f8c13]" started-at="2024-12-16T23:18:51 MSK" name="setZeroLength" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setZeroLength -->
+        <test-method signature="setZeroWidth()[pri:0, instance:calc.TestNGRectangleTest@4c9f8c13]" started-at="2024-12-16T23:18:51 MSK" name="setZeroWidth" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setZeroWidth -->
+      </class> <!-- calc.TestNGRectangleTest -->
+      <class name="calc.TestNGCalculatorTest">
+        <test-method is-config="true" signature="createInstance()[pri:0, instance:calc.TestNGCalculatorTest@1677d1]" started-at="2024-12-16T23:18:51 MSK" name="createInstance" finished-at="2024-12-16T23:18:51 MSK" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createInstance -->
-        <test-method signature="divideByZero()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="divideByZero" finished-at="2024-12-14T00:00:11 MSK" duration-ms="3" status="PASS">
+        <test-method signature="divideByZero()[pri:0, instance:calc.TestNGCalculatorTest@1677d1]" started-at="2024-12-16T23:18:51 MSK" name="divideByZero" finished-at="2024-12-16T23:18:51 MSK" duration-ms="2" status="PASS">
           <exception class="java.lang.ArithmeticException">
             <message>
               <![CDATA[/ by zero]]>
@@ -19,7 +851,7 @@
             <full-stacktrace>
               <![CDATA[java.lang.ArithmeticException: / by zero
 at calc.Calculator.divide(Calculator.java:18)
-at testNG.calc.CalculatorTest.divideByZero(CalculatorTest.java:80)
+at calc.TestNGCalculatorTest.divideByZero(TestNGCalculatorTest.java:79)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -57,95 +889,95 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- divideByZero -->
-        <test-method is-config="true" signature="createInstance()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="createInstance" finished-at="2024-12-14T00:00:11 MSK" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="createInstance()[pri:0, instance:calc.TestNGCalculatorTest@1677d1]" started-at="2024-12-16T23:18:51 MSK" name="createInstance" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createInstance -->
-        <test-method signature="dotResultAfterDivide()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="dotResultAfterDivide" finished-at="2024-12-14T00:00:11 MSK" duration-ms="4" status="PASS">
+        <test-method signature="dotResultAfterDivide()[pri:0, instance:calc.TestNGCalculatorTest@1677d1]" started-at="2024-12-16T23:18:51 MSK" name="dotResultAfterDivide" finished-at="2024-12-16T23:18:51 MSK" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dotResultAfterDivide -->
-        <test-method is-config="true" signature="createInstance()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="createInstance" finished-at="2024-12-14T00:00:11 MSK" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createInstance -->
-        <test-method signature="negativeDividePositive()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="negativeDividePositive" finished-at="2024-12-14T00:00:11 MSK" duration-ms="1" status="PASS">
+        <test-method signature="negativeDividePositive()[pri:0, instance:calc.TestNGCalculatorTest@1677d1]" started-at="2024-12-16T23:18:51 MSK" name="negativeDividePositive" finished-at="2024-12-16T23:18:51 MSK" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeDividePositive -->
-        <test-method is-config="true" signature="createInstance()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="createInstance" finished-at="2024-12-14T00:00:11 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="createInstance()[pri:0, instance:calc.TestNGCalculatorTest@1677d1]" started-at="2024-12-16T23:18:51 MSK" name="createInstance" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createInstance -->
-        <test-method signature="negativeMultiplyPositive()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="negativeMultiplyPositive" finished-at="2024-12-14T00:00:11 MSK" duration-ms="0" status="PASS">
+        <test-method signature="negativeMultiplyPositive()[pri:0, instance:calc.TestNGCalculatorTest@1677d1]" started-at="2024-12-16T23:18:51 MSK" name="negativeMultiplyPositive" finished-at="2024-12-16T23:18:51 MSK" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeMultiplyPositive -->
-        <test-method signature="negativeNumsSubtract()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="negativeNumsSubtract" finished-at="2024-12-14T00:00:11 MSK" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="createInstance()[pri:0, instance:calc.TestNGCalculatorTest@1677d1]" started-at="2024-12-16T23:18:51 MSK" name="createInstance" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInstance -->
+        <test-method signature="negativeNumsSubtract()[pri:0, instance:calc.TestNGCalculatorTest@1677d1]" started-at="2024-12-16T23:18:51 MSK" name="negativeNumsSubtract" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeNumsSubtract -->
-        <test-method is-config="true" signature="createInstance()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="createInstance" finished-at="2024-12-14T00:00:11 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="createInstance()[pri:0, instance:calc.TestNGCalculatorTest@1677d1]" started-at="2024-12-16T23:18:51 MSK" name="createInstance" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createInstance -->
-        <test-method signature="negativeNumsSum()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="negativeNumsSum" finished-at="2024-12-14T00:00:11 MSK" duration-ms="1" status="PASS">
+        <test-method signature="negativeNumsSum()[pri:0, instance:calc.TestNGCalculatorTest@1677d1]" started-at="2024-12-16T23:18:51 MSK" name="negativeNumsSum" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeNumsSum -->
-        <test-method is-config="true" signature="createInstance()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="createInstance" finished-at="2024-12-14T00:00:11 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="createInstance()[pri:0, instance:calc.TestNGCalculatorTest@1677d1]" started-at="2024-12-16T23:18:51 MSK" name="createInstance" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createInstance -->
-        <test-method signature="positiveDivideNegative()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="positiveDivideNegative" finished-at="2024-12-14T00:00:11 MSK" duration-ms="0" status="PASS">
+        <test-method signature="positiveDivideNegative()[pri:0, instance:calc.TestNGCalculatorTest@1677d1]" started-at="2024-12-16T23:18:51 MSK" name="positiveDivideNegative" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- positiveDivideNegative -->
-        <test-method is-config="true" signature="createInstance()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="createInstance" finished-at="2024-12-14T00:00:11 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="createInstance()[pri:0, instance:calc.TestNGCalculatorTest@1677d1]" started-at="2024-12-16T23:18:51 MSK" name="createInstance" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createInstance -->
-        <test-method signature="positiveMultiplyNegative()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="positiveMultiplyNegative" finished-at="2024-12-14T00:00:11 MSK" duration-ms="0" status="PASS">
+        <test-method signature="positiveMultiplyNegative()[pri:0, instance:calc.TestNGCalculatorTest@1677d1]" started-at="2024-12-16T23:18:51 MSK" name="positiveMultiplyNegative" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- positiveMultiplyNegative -->
-        <test-method is-config="true" signature="createInstance()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="createInstance" finished-at="2024-12-14T00:00:11 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="createInstance()[pri:0, instance:calc.TestNGCalculatorTest@1677d1]" started-at="2024-12-16T23:18:51 MSK" name="createInstance" finished-at="2024-12-16T23:18:51 MSK" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createInstance -->
-        <test-method is-config="true" signature="createInstance()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="createInstance" finished-at="2024-12-14T00:00:11 MSK" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="createInstance()[pri:0, instance:calc.TestNGCalculatorTest@1677d1]" started-at="2024-12-16T23:18:51 MSK" name="createInstance" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createInstance -->
-        <test-method signature="positiveNumsDivide()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="positiveNumsDivide" finished-at="2024-12-14T00:00:11 MSK" duration-ms="1" status="PASS">
+        <test-method signature="positiveNumsDivide()[pri:0, instance:calc.TestNGCalculatorTest@1677d1]" started-at="2024-12-16T23:18:51 MSK" name="positiveNumsDivide" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- positiveNumsDivide -->
-        <test-method is-config="true" signature="createInstance()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="createInstance" finished-at="2024-12-14T00:00:11 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="createInstance()[pri:0, instance:calc.TestNGCalculatorTest@1677d1]" started-at="2024-12-16T23:18:51 MSK" name="createInstance" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createInstance -->
-        <test-method signature="positiveNumsMultiply()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="positiveNumsMultiply" finished-at="2024-12-14T00:00:11 MSK" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- positiveNumsMultiply -->
-        <test-method is-config="true" signature="createInstance()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="createInstance" finished-at="2024-12-14T00:00:11 MSK" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createInstance -->
-        <test-method signature="positiveNumsSubtract()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="positiveNumsSubtract" finished-at="2024-12-14T00:00:11 MSK" duration-ms="0" status="PASS">
+        <test-method signature="positiveNumsSubtract()[pri:0, instance:calc.TestNGCalculatorTest@1677d1]" started-at="2024-12-16T23:18:51 MSK" name="positiveNumsSubtract" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- positiveNumsSubtract -->
-        <test-method signature="positiveNumsSum()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="positiveNumsSum" finished-at="2024-12-14T00:00:11 MSK" duration-ms="1" status="PASS">
+        <test-method signature="positiveNumsMultiply()[pri:0, instance:calc.TestNGCalculatorTest@1677d1]" started-at="2024-12-16T23:18:51 MSK" name="positiveNumsMultiply" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- positiveNumsSum -->
-        <test-method is-config="true" signature="createInstance()[pri:0, instance:testNG.calc.CalculatorTest@27ae2fd0]" started-at="2024-12-14T00:00:11 MSK" name="createInstance" finished-at="2024-12-14T00:00:11 MSK" duration-ms="0" status="PASS">
+        </test-method> <!-- positiveNumsMultiply -->
+        <test-method is-config="true" signature="createInstance()[pri:0, instance:calc.TestNGCalculatorTest@1677d1]" started-at="2024-12-16T23:18:51 MSK" name="createInstance" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createInstance -->
-      </class> <!-- testNG.calc.CalculatorTest -->
+        <test-method signature="positiveNumsSum()[pri:0, instance:calc.TestNGCalculatorTest@1677d1]" started-at="2024-12-16T23:18:51 MSK" name="positiveNumsSum" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveNumsSum -->
+        <test-method is-config="true" signature="createInstance()[pri:0, instance:calc.TestNGCalculatorTest@1677d1]" started-at="2024-12-16T23:18:51 MSK" name="createInstance" finished-at="2024-12-16T23:18:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInstance -->
+      </class> <!-- calc.TestNGCalculatorTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

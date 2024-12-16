@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.67" tests="12" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="0.471" tests="53" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.class.path" value="C:\Repo\UnitTestsDummy\target\test-classes;C:\Repo\UnitTestsDummy\target\classes;C:\Users\user\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\user\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\user\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\user\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="java.class.path" value="C:\Repo\UnitTestsDummy\target\test-classes;C:\Repo\UnitTestsDummy\target\classes;C:\Users\user\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\user\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\user\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\user\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\user\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.5.2\maven-surefire-plugin-3.5.2.jar;C:\Users\user\.m2\repository\org\apache\maven\surefire\surefire-api\3.5.2\surefire-api-3.5.2.jar;C:\Users\user\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.5.2\surefire-logger-api-3.5.2.jar;C:\Users\user\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.5.2\surefire-shared-utils-3.5.2.jar;C:\Users\user\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.5.2\surefire-extensions-api-3.5.2.jar;C:\Users\user\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.5.2\maven-surefire-common-3.5.2.jar;C:\Users\user\.m2\repository\org\apache\maven\surefire\surefire-booter\3.5.2\surefire-booter-3.5.2.jar;C:\Users\user\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.5.2\surefire-extensions-spi-3.5.2.jar;C:\Users\user\.m2\repository\org\apache\maven\resolver\maven-resolver-util\1.4.1\maven-resolver-util-1.4.1.jar;C:\Users\user\.m2\repository\org\apache\maven\resolver\maven-resolver-api\1.4.1\maven-resolver-api-1.4.1.jar;C:\Users\user\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.4.0\maven-common-artifact-filters-3.4.0.jar;C:\Users\user\.m2\repository\org\codehaus\plexus\plexus-java\1.3.0\plexus-java-1.3.0.jar;C:\Users\user\.m2\repository\org\ow2\asm\asm\9.7\asm-9.7.jar;C:\Users\user\.m2\repository\com\thoughtworks\qdox\qdox\2.1.0\qdox-2.1.0.jar;C:\Users\user\.m2\repository\javassist\javassist\3.12.1.GA\javassist-3.12.1.GA.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\JDK\jdk-21.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire2264455630637112309\surefirebooter-20241214000010859_3.jar C:\Users\user\AppData\Local\Temp\surefire2264455630637112309 2024-12-14T00-00-10_733-jvmRun1 surefire-20241214000010859_1tmp surefire_0-20241214000010859_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire3172733166637332295\surefirebooter-20241216231850830_3.jar C:\Users\user\AppData\Local\Temp\surefire3172733166637332295 2024-12-16T23-18-50_731-jvmRun1 surefire-20241216231850830_1tmp surefire_0-20241216231850830_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Repo\UnitTestsDummy\target\test-classes;C:\Repo\UnitTestsDummy\target\classes;C:\Users\user\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\user\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\user\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\user\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Repo\UnitTestsDummy\target\test-classes;C:\Repo\UnitTestsDummy\target\classes;C:\Users\user\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\user\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\user\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\user\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\user\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.5.2\maven-surefire-plugin-3.5.2.jar;C:\Users\user\.m2\repository\org\apache\maven\surefire\surefire-api\3.5.2\surefire-api-3.5.2.jar;C:\Users\user\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.5.2\surefire-logger-api-3.5.2.jar;C:\Users\user\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.5.2\surefire-shared-utils-3.5.2.jar;C:\Users\user\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.5.2\surefire-extensions-api-3.5.2.jar;C:\Users\user\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.5.2\maven-surefire-common-3.5.2.jar;C:\Users\user\.m2\repository\org\apache\maven\surefire\surefire-booter\3.5.2\surefire-booter-3.5.2.jar;C:\Users\user\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.5.2\surefire-extensions-spi-3.5.2.jar;C:\Users\user\.m2\repository\org\apache\maven\resolver\maven-resolver-util\1.4.1\maven-resolver-util-1.4.1.jar;C:\Users\user\.m2\repository\org\apache\maven\resolver\maven-resolver-api\1.4.1\maven-resolver-api-1.4.1.jar;C:\Users\user\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.4.0\maven-common-artifact-filters-3.4.0.jar;C:\Users\user\.m2\repository\org\codehaus\plexus\plexus-java\1.3.0\plexus-java-1.3.0.jar;C:\Users\user\.m2\repository\org\ow2\asm\asm\9.7\asm-9.7.jar;C:\Users\user\.m2\repository\com\thoughtworks\qdox\qdox\2.1.0\qdox-2.1.0.jar;C:\Users\user\.m2\repository\javassist\javassist\3.12.1.GA\javassist-3.12.1.GA.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\user"/>
     <property name="user.language" value="ru"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire2264455630637112309\surefirebooter-20241214000010859_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire3172733166637332295\surefirebooter-20241216231850830_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.2+13-58"/>
@@ -58,21 +58,62 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="divideByZero" classname="testNG.calc.CalculatorTest" time="0.006">
+  <testcase name="divideByZero" classname="calc.TestNGCalculatorTest" time="0.002">
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="dotResultAfterDivide" classname="testNG.calc.CalculatorTest" time="0.0"/>
-  <testcase name="negativeDividePositive" classname="testNG.calc.CalculatorTest" time="0.0"/>
-  <testcase name="negativeMultiplyPositive" classname="testNG.calc.CalculatorTest" time="0.001"/>
-  <testcase name="negativeNumsSubtract" classname="testNG.calc.CalculatorTest" time="0.0"/>
-  <testcase name="negativeNumsSum" classname="testNG.calc.CalculatorTest" time="0.0"/>
-  <testcase name="positiveDivideNegative" classname="testNG.calc.CalculatorTest" time="0.0"/>
-  <testcase name="positiveMultiplyNegative" classname="testNG.calc.CalculatorTest" time="0.0"/>
-  <testcase name="positiveNumsDivide" classname="testNG.calc.CalculatorTest" time="0.0"/>
-  <testcase name="positiveNumsMultiply" classname="testNG.calc.CalculatorTest" time="0.001"/>
-  <testcase name="positiveNumsSubtract" classname="testNG.calc.CalculatorTest" time="0.0"/>
-  <testcase name="positiveNumsSum" classname="testNG.calc.CalculatorTest" time="0.0"/>
+  <testcase name="dotResultAfterDivide" classname="calc.TestNGCalculatorTest" time="0.002"/>
+  <testcase name="negativeDividePositive" classname="calc.TestNGCalculatorTest" time="0.0"/>
+  <testcase name="negativeMultiplyPositive" classname="calc.TestNGCalculatorTest" time="0.0"/>
+  <testcase name="negativeNumsSubtract" classname="calc.TestNGCalculatorTest" time="0.0"/>
+  <testcase name="negativeNumsSum" classname="calc.TestNGCalculatorTest" time="0.0"/>
+  <testcase name="positiveDivideNegative" classname="calc.TestNGCalculatorTest" time="0.0"/>
+  <testcase name="positiveMultiplyNegative" classname="calc.TestNGCalculatorTest" time="0.0"/>
+  <testcase name="positiveNumsDivide" classname="calc.TestNGCalculatorTest" time="0.0"/>
+  <testcase name="positiveNumsMultiply" classname="calc.TestNGCalculatorTest" time="0.0"/>
+  <testcase name="positiveNumsSubtract" classname="calc.TestNGCalculatorTest" time="0.001"/>
+  <testcase name="positiveNumsSum" classname="calc.TestNGCalculatorTest" time="0.0"/>
+  <testcase name="checkConsoleText" classname="calc.TestNGEvenOddCheckerTest" time="0.001"/>
+  <testcase name="checkEvenConsoleText" classname="calc.TestNGEvenOddCheckerTest" time="0.001"/>
+  <testcase name="checkOddConsoleText" classname="calc.TestNGEvenOddCheckerTest" time="0.0"/>
+  <testcase name="evenCheck" classname="calc.TestNGEvenOddCheckerTest" time="0.0"/>
+  <testcase name="oddCheck" classname="calc.TestNGEvenOddCheckerTest" time="0.0"/>
+  <testcase name="getAreaWithDoubleNums" classname="calc.TestNGRectangleTest" time="0.0"/>
+  <testcase name="getAreaWithFirsNegativeNum" classname="calc.TestNGRectangleTest" time="0.001"/>
+  <testcase name="getAreaWithNegativeNums" classname="calc.TestNGRectangleTest" time="0.0"/>
+  <testcase name="getAreaWithPositiveNums" classname="calc.TestNGRectangleTest" time="0.001"/>
+  <testcase name="getAreaWithSecondNegativeNum" classname="calc.TestNGRectangleTest" time="0.0"/>
+  <testcase name="getAreaWithZeroNums" classname="calc.TestNGRectangleTest" time="0.001"/>
+  <testcase name="getDoubleLength" classname="calc.TestNGRectangleTest" time="0.0"/>
+  <testcase name="getDoubleWidth" classname="calc.TestNGRectangleTest" time="0.001"/>
+  <testcase name="getNegativeLength" classname="calc.TestNGRectangleTest" time="0.0"/>
+  <testcase name="getNegativeWidth" classname="calc.TestNGRectangleTest" time="0.0"/>
+  <testcase name="getPositiveLength" classname="calc.TestNGRectangleTest" time="0.0"/>
+  <testcase name="getPositiveWidth" classname="calc.TestNGRectangleTest" time="0.0"/>
+  <testcase name="setDoubleLength" classname="calc.TestNGRectangleTest" time="0.0"/>
+  <testcase name="setDoubleWidth" classname="calc.TestNGRectangleTest" time="0.0"/>
+  <testcase name="setNegativeLength" classname="calc.TestNGRectangleTest" time="0.0"/>
+  <testcase name="setNegativeWidth" classname="calc.TestNGRectangleTest" time="0.0"/>
+  <testcase name="setPositiveLength" classname="calc.TestNGRectangleTest" time="0.001"/>
+  <testcase name="setPositiveWidth" classname="calc.TestNGRectangleTest" time="0.0"/>
+  <testcase name="setZeroLength" classname="calc.TestNGRectangleTest" time="0.0"/>
+  <testcase name="setZeroWidth" classname="calc.TestNGRectangleTest" time="0.0"/>
+  <testcase name="skillTestAQA[0](1)" classname="people.TestNGgetSkillTest" time="0.0"/>
+  <testcase name="skillTestAQA[7](2)" classname="people.TestNGgetSkillTest" time="0.0"/>
+  <testcase name="skillTestQA[0](1)" classname="people.TestNGgetSkillTest" time="0.0"/>
+  <testcase name="skillTestQA[7](2)" classname="people.TestNGgetSkillTest" time="0.0"/>
+  <testcase name="setNotRelevantAgeToConstructorAQA[66](1)" classname="people.TestNGnotRelevantAgeTest" time="0.001"/>
+  <testcase name="setNotRelevantAgeToConstructorAQA[17](2)" classname="people.TestNGnotRelevantAgeTest" time="0.0"/>
+  <testcase name="setNotRelevantAgeToConstructorAQA[-20](3)" classname="people.TestNGnotRelevantAgeTest" time="0.0"/>
+  <testcase name="setNotRelevantAgeToConstructorQA[66](1)" classname="people.TestNGnotRelevantAgeTest" time="0.001"/>
+  <testcase name="setNotRelevantAgeToConstructorQA[17](2)" classname="people.TestNGnotRelevantAgeTest" time="0.0"/>
+  <testcase name="setNotRelevantAgeToConstructorQA[-20](3)" classname="people.TestNGnotRelevantAgeTest" time="0.0"/>
+  <testcase name="setNotRelevantAgeToSetterAQA[66](1)" classname="people.TestNGnotRelevantAgeTest" time="0.0"/>
+  <testcase name="setNotRelevantAgeToSetterAQA[17](2)" classname="people.TestNGnotRelevantAgeTest" time="0.0"/>
+  <testcase name="setNotRelevantAgeToSetterAQA[-20](3)" classname="people.TestNGnotRelevantAgeTest" time="0.0"/>
+  <testcase name="setNotRelevantAgeToSetterQA[66](1)" classname="people.TestNGnotRelevantAgeTest" time="0.0"/>
+  <testcase name="setNotRelevantAgeToSetterQA[17](2)" classname="people.TestNGnotRelevantAgeTest" time="0.0"/>
+  <testcase name="setNotRelevantAgeToSetterQA[-20](3)" classname="people.TestNGnotRelevantAgeTest" time="0.0"/>
 </testsuite>

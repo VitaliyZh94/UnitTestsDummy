@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>53/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Dec 14 00:00:11 MSK 2024</td>
+<td>Started on:</td><td>Mon Dec 16 23:18:51 MSK 2024</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (102 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (75 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,20 +76,36 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testNG.calc.CalculatorTest.negativeMultiplyPositive()'><b>negativeMultiplyPositive</b><br>Test class: testNG.calc.CalculatorTest</td>
+<td title='calc.TestNGRectangleTest.setPositiveWidth()'><b>setPositiveWidth</b><br>Test class: calc.TestNGRectangleTest</td>
 <td></td>
 <td>0</td>
-<td>testNG.calc.CalculatorTest@27ae2fd0</td></tr>
+<td>calc.TestNGRectangleTest@4c9f8c13</td></tr>
 <tr>
-<td title='testNG.calc.CalculatorTest.divideByZero()'><b>divideByZero</b><br>Test class: testNG.calc.CalculatorTest</td>
-<td><div><pre>java.lang.ArithmeticException: / by zero
-	at calc.Calculator.divide(Calculator.java:18)
-	at testNG.calc.CalculatorTest.divideByZero(CalculatorTest.java:80)
+<td title='calc.TestNGCalculatorTest.positiveDivideNegative()'><b>positiveDivideNegative</b><br>Test class: calc.TestNGCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>calc.TestNGCalculatorTest@1677d1</td></tr>
+<tr>
+<td title='calc.TestNGCalculatorTest.negativeDividePositive()'><b>negativeDividePositive</b><br>Test class: calc.TestNGCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>calc.TestNGCalculatorTest@1677d1</td></tr>
+<tr>
+<td title='people.TestNGnotRelevantAgeTest.setNotRelevantAgeToConstructorQA()'><b>setNotRelevantAgeToConstructorQA</b><br>Test class: people.TestNGnotRelevantAgeTest<br>Parameters: 17</td>
+<td><div><pre>java.lang.IllegalArgumentException: Age must be from 18 to 65
+	at people.Person.ageAdmission(Person.java:23)
+	at people.Person.&lt;init&gt;(Person.java:9)
+	at people.Engineer.&lt;init&gt;(Engineer.java:9)
+	at people.ManualEngineer.&lt;init&gt;(ManualEngineer.java:8)
+	at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToConstructorQA(TestNGnotRelevantAgeTest.java:25)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace68377659", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace68377659'><pre>java.lang.ArithmeticException: / by zero
-	at calc.Calculator.divide(Calculator.java:18)
-	at testNG.calc.CalculatorTest.divideByZero(CalculatorTest.java:80)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace914356853", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace914356853'><pre>java.lang.IllegalArgumentException: Age must be from 18 to 65
+	at people.Person.ageAdmission(Person.java:23)
+	at people.Person.&lt;init&gt;(Person.java:9)
+	at people.Engineer.&lt;init&gt;(Engineer.java:9)
+	at people.ManualEngineer.&lt;init&gt;(ManualEngineer.java:8)
+	at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToConstructorQA(TestNGnotRelevantAgeTest.java:25)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -123,57 +139,762 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
 <td>0</td>
-<td>testNG.calc.CalculatorTest@27ae2fd0</td></tr>
+<td>people.TestNGnotRelevantAgeTest@6f96c77</td></tr>
 <tr>
-<td title='testNG.calc.CalculatorTest.negativeNumsSum()'><b>negativeNumsSum</b><br>Test class: testNG.calc.CalculatorTest</td>
+<td title='calc.TestNGRectangleTest.setZeroLength()'><b>setZeroLength</b><br>Test class: calc.TestNGRectangleTest</td>
 <td></td>
 <td>0</td>
-<td>testNG.calc.CalculatorTest@27ae2fd0</td></tr>
+<td>calc.TestNGRectangleTest@4c9f8c13</td></tr>
 <tr>
-<td title='testNG.calc.CalculatorTest.positiveNumsMultiply()'><b>positiveNumsMultiply</b><br>Test class: testNG.calc.CalculatorTest</td>
+<td title='people.TestNGnotRelevantAgeTest.setNotRelevantAgeToSetterQA()'><b>setNotRelevantAgeToSetterQA</b><br>Test class: people.TestNGnotRelevantAgeTest<br>Parameters: 66</td>
+<td><div><pre>java.lang.IllegalArgumentException: Age must be from 18 to 65
+	at people.Person.ageAdmission(Person.java:23)
+	at people.Person.setAge(Person.java:18)
+	at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToSetterQA(TestNGnotRelevantAgeTest.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace16503286", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace16503286'><pre>java.lang.IllegalArgumentException: Age must be from 18 to 65
+	at people.Person.ageAdmission(Person.java:23)
+	at people.Person.setAge(Person.java:18)
+	at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToSetterQA(TestNGnotRelevantAgeTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>people.TestNGnotRelevantAgeTest@6f96c77</td></tr>
+<tr>
+<td title='calc.TestNGRectangleTest.setNegativeWidth()'><b>setNegativeWidth</b><br>Test class: calc.TestNGRectangleTest</td>
 <td></td>
 <td>0</td>
-<td>testNG.calc.CalculatorTest@27ae2fd0</td></tr>
+<td>calc.TestNGRectangleTest@4c9f8c13</td></tr>
 <tr>
-<td title='testNG.calc.CalculatorTest.negativeDividePositive()'><b>negativeDividePositive</b><br>Test class: testNG.calc.CalculatorTest</td>
+<td title='calc.TestNGRectangleTest.setPositiveLength()'><b>setPositiveLength</b><br>Test class: calc.TestNGRectangleTest</td>
 <td></td>
 <td>0</td>
-<td>testNG.calc.CalculatorTest@27ae2fd0</td></tr>
+<td>calc.TestNGRectangleTest@4c9f8c13</td></tr>
 <tr>
-<td title='testNG.calc.CalculatorTest.positiveDivideNegative()'><b>positiveDivideNegative</b><br>Test class: testNG.calc.CalculatorTest</td>
+<td title='people.TestNGgetSkillTest.skillTestAQA()'><b>skillTestAQA</b><br>Test class: people.TestNGgetSkillTest<br>Parameters: 0</td>
 <td></td>
 <td>0</td>
-<td>testNG.calc.CalculatorTest@27ae2fd0</td></tr>
+<td>people.TestNGgetSkillTest@5ae50ce6</td></tr>
 <tr>
-<td title='testNG.calc.CalculatorTest.positiveNumsSum()'><b>positiveNumsSum</b><br>Test class: testNG.calc.CalculatorTest</td>
+<td title='people.TestNGnotRelevantAgeTest.setNotRelevantAgeToSetterAQA()'><b>setNotRelevantAgeToSetterAQA</b><br>Test class: people.TestNGnotRelevantAgeTest<br>Parameters: -20</td>
+<td><div><pre>java.lang.IllegalArgumentException: Age must be from 18 to 65
+	at people.Person.ageAdmission(Person.java:23)
+	at people.Person.setAge(Person.java:18)
+	at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToSetterAQA(TestNGnotRelevantAgeTest.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1442726378", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1442726378'><pre>java.lang.IllegalArgumentException: Age must be from 18 to 65
+	at people.Person.ageAdmission(Person.java:23)
+	at people.Person.setAge(Person.java:18)
+	at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToSetterAQA(TestNGnotRelevantAgeTest.java:31)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>people.TestNGnotRelevantAgeTest@6f96c77</td></tr>
+<tr>
+<td title='calc.TestNGCalculatorTest.negativeNumsSubtract()'><b>negativeNumsSubtract</b><br>Test class: calc.TestNGCalculatorTest</td>
 <td></td>
 <td>0</td>
-<td>testNG.calc.CalculatorTest@27ae2fd0</td></tr>
+<td>calc.TestNGCalculatorTest@1677d1</td></tr>
 <tr>
-<td title='testNG.calc.CalculatorTest.negativeNumsSubtract()'><b>negativeNumsSubtract</b><br>Test class: testNG.calc.CalculatorTest</td>
+<td title='calc.TestNGCalculatorTest.negativeMultiplyPositive()'><b>negativeMultiplyPositive</b><br>Test class: calc.TestNGCalculatorTest</td>
 <td></td>
 <td>0</td>
-<td>testNG.calc.CalculatorTest@27ae2fd0</td></tr>
+<td>calc.TestNGCalculatorTest@1677d1</td></tr>
 <tr>
-<td title='testNG.calc.CalculatorTest.positiveMultiplyNegative()'><b>positiveMultiplyNegative</b><br>Test class: testNG.calc.CalculatorTest</td>
+<td title='people.TestNGgetSkillTest.skillTestQA()'><b>skillTestQA</b><br>Test class: people.TestNGgetSkillTest<br>Parameters: 0</td>
 <td></td>
 <td>0</td>
-<td>testNG.calc.CalculatorTest@27ae2fd0</td></tr>
+<td>people.TestNGgetSkillTest@5ae50ce6</td></tr>
 <tr>
-<td title='testNG.calc.CalculatorTest.positiveNumsDivide()'><b>positiveNumsDivide</b><br>Test class: testNG.calc.CalculatorTest</td>
+<td title='calc.TestNGRectangleTest.getDoubleWidth()'><b>getDoubleWidth</b><br>Test class: calc.TestNGRectangleTest</td>
 <td></td>
 <td>0</td>
-<td>testNG.calc.CalculatorTest@27ae2fd0</td></tr>
+<td>calc.TestNGRectangleTest@4c9f8c13</td></tr>
 <tr>
-<td title='testNG.calc.CalculatorTest.dotResultAfterDivide()'><b>dotResultAfterDivide</b><br>Test class: testNG.calc.CalculatorTest</td>
+<td title='calc.TestNGRectangleTest.setNegativeLength()'><b>setNegativeLength</b><br>Test class: calc.TestNGRectangleTest</td>
 <td></td>
 <td>0</td>
-<td>testNG.calc.CalculatorTest@27ae2fd0</td></tr>
+<td>calc.TestNGRectangleTest@4c9f8c13</td></tr>
 <tr>
-<td title='testNG.calc.CalculatorTest.positiveNumsSubtract()'><b>positiveNumsSubtract</b><br>Test class: testNG.calc.CalculatorTest</td>
+<td title='calc.TestNGRectangleTest.setDoubleWidth()'><b>setDoubleWidth</b><br>Test class: calc.TestNGRectangleTest</td>
 <td></td>
 <td>0</td>
-<td>testNG.calc.CalculatorTest@27ae2fd0</td></tr>
+<td>calc.TestNGRectangleTest@4c9f8c13</td></tr>
+<tr>
+<td title='calc.TestNGEvenOddCheckerTest.evenCheck()'><b>evenCheck</b><br>Test class: calc.TestNGEvenOddCheckerTest</td>
+<td></td>
+<td>0</td>
+<td>calc.TestNGEvenOddCheckerTest@769f71a9</td></tr>
+<tr>
+<td title='people.TestNGnotRelevantAgeTest.setNotRelevantAgeToConstructorQA()'><b>setNotRelevantAgeToConstructorQA</b><br>Test class: people.TestNGnotRelevantAgeTest<br>Parameters: -20</td>
+<td><div><pre>java.lang.IllegalArgumentException: Age must be from 18 to 65
+	at people.Person.ageAdmission(Person.java:23)
+	at people.Person.&lt;init&gt;(Person.java:9)
+	at people.Engineer.&lt;init&gt;(Engineer.java:9)
+	at people.ManualEngineer.&lt;init&gt;(ManualEngineer.java:8)
+	at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToConstructorQA(TestNGnotRelevantAgeTest.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1229161065", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1229161065'><pre>java.lang.IllegalArgumentException: Age must be from 18 to 65
+	at people.Person.ageAdmission(Person.java:23)
+	at people.Person.&lt;init&gt;(Person.java:9)
+	at people.Engineer.&lt;init&gt;(Engineer.java:9)
+	at people.ManualEngineer.&lt;init&gt;(ManualEngineer.java:8)
+	at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToConstructorQA(TestNGnotRelevantAgeTest.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>people.TestNGnotRelevantAgeTest@6f96c77</td></tr>
+<tr>
+<td title='calc.TestNGCalculatorTest.positiveNumsDivide()'><b>positiveNumsDivide</b><br>Test class: calc.TestNGCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>calc.TestNGCalculatorTest@1677d1</td></tr>
+<tr>
+<td title='calc.TestNGEvenOddCheckerTest.checkEvenConsoleText()'><b>checkEvenConsoleText</b><br>Test class: calc.TestNGEvenOddCheckerTest</td>
+<td></td>
+<td>0</td>
+<td>calc.TestNGEvenOddCheckerTest@769f71a9</td></tr>
+<tr>
+<td title='people.TestNGgetSkillTest.skillTestQA()'><b>skillTestQA</b><br>Test class: people.TestNGgetSkillTest<br>Parameters: 7</td>
+<td></td>
+<td>0</td>
+<td>people.TestNGgetSkillTest@5ae50ce6</td></tr>
+<tr>
+<td title='calc.TestNGRectangleTest.getNegativeLength()'><b>getNegativeLength</b><br>Test class: calc.TestNGRectangleTest</td>
+<td></td>
+<td>0</td>
+<td>calc.TestNGRectangleTest@4c9f8c13</td></tr>
+<tr>
+<td title='calc.TestNGEvenOddCheckerTest.checkConsoleText()'><b>checkConsoleText</b><br>Test class: calc.TestNGEvenOddCheckerTest</td>
+<td></td>
+<td>0</td>
+<td>calc.TestNGEvenOddCheckerTest@769f71a9</td></tr>
+<tr>
+<td title='calc.TestNGCalculatorTest.negativeNumsSum()'><b>negativeNumsSum</b><br>Test class: calc.TestNGCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>calc.TestNGCalculatorTest@1677d1</td></tr>
+<tr>
+<td title='calc.TestNGEvenOddCheckerTest.checkOddConsoleText()'><b>checkOddConsoleText</b><br>Test class: calc.TestNGEvenOddCheckerTest</td>
+<td></td>
+<td>0</td>
+<td>calc.TestNGEvenOddCheckerTest@769f71a9</td></tr>
+<tr>
+<td title='calc.TestNGRectangleTest.getPositiveLength()'><b>getPositiveLength</b><br>Test class: calc.TestNGRectangleTest</td>
+<td></td>
+<td>0</td>
+<td>calc.TestNGRectangleTest@4c9f8c13</td></tr>
+<tr>
+<td title='calc.TestNGRectangleTest.getAreaWithNegativeNums()'><b>getAreaWithNegativeNums</b><br>Test class: calc.TestNGRectangleTest</td>
+<td></td>
+<td>0</td>
+<td>calc.TestNGRectangleTest@4c9f8c13</td></tr>
+<tr>
+<td title='calc.TestNGCalculatorTest.positiveNumsSubtract()'><b>positiveNumsSubtract</b><br>Test class: calc.TestNGCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>calc.TestNGCalculatorTest@1677d1</td></tr>
+<tr>
+<td title='calc.TestNGRectangleTest.getAreaWithZeroNums()'><b>getAreaWithZeroNums</b><br>Test class: calc.TestNGRectangleTest</td>
+<td></td>
+<td>0</td>
+<td>calc.TestNGRectangleTest@4c9f8c13</td></tr>
+<tr>
+<td title='people.TestNGnotRelevantAgeTest.setNotRelevantAgeToConstructorAQA()'><b>setNotRelevantAgeToConstructorAQA</b><br>Test class: people.TestNGnotRelevantAgeTest<br>Parameters: 66</td>
+<td><div><pre>java.lang.IllegalArgumentException: Age must be from 18 to 65
+	at people.Person.ageAdmission(Person.java:23)
+	at people.Person.&lt;init&gt;(Person.java:9)
+	at people.Engineer.&lt;init&gt;(Engineer.java:9)
+	at people.AutomatedEngineer.&lt;init&gt;(AutomatedEngineer.java:8)
+	at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToConstructorAQA(TestNGnotRelevantAgeTest.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace807752428", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace807752428'><pre>java.lang.IllegalArgumentException: Age must be from 18 to 65
+	at people.Person.ageAdmission(Person.java:23)
+	at people.Person.&lt;init&gt;(Person.java:9)
+	at people.Engineer.&lt;init&gt;(Engineer.java:9)
+	at people.AutomatedEngineer.&lt;init&gt;(AutomatedEngineer.java:8)
+	at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToConstructorAQA(TestNGnotRelevantAgeTest.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>people.TestNGnotRelevantAgeTest@6f96c77</td></tr>
+<tr>
+<td title='people.TestNGgetSkillTest.skillTestAQA()'><b>skillTestAQA</b><br>Test class: people.TestNGgetSkillTest<br>Parameters: 7</td>
+<td></td>
+<td>0</td>
+<td>people.TestNGgetSkillTest@5ae50ce6</td></tr>
+<tr>
+<td title='people.TestNGnotRelevantAgeTest.setNotRelevantAgeToSetterAQA()'><b>setNotRelevantAgeToSetterAQA</b><br>Test class: people.TestNGnotRelevantAgeTest<br>Parameters: 66</td>
+<td><div><pre>java.lang.IllegalArgumentException: Age must be from 18 to 65
+	at people.Person.ageAdmission(Person.java:23)
+	at people.Person.setAge(Person.java:18)
+	at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToSetterAQA(TestNGnotRelevantAgeTest.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace195228908", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace195228908'><pre>java.lang.IllegalArgumentException: Age must be from 18 to 65
+	at people.Person.ageAdmission(Person.java:23)
+	at people.Person.setAge(Person.java:18)
+	at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToSetterAQA(TestNGnotRelevantAgeTest.java:31)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>people.TestNGnotRelevantAgeTest@6f96c77</td></tr>
+<tr>
+<td title='calc.TestNGCalculatorTest.dotResultAfterDivide()'><b>dotResultAfterDivide</b><br>Test class: calc.TestNGCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>calc.TestNGCalculatorTest@1677d1</td></tr>
+<tr>
+<td title='calc.TestNGRectangleTest.getPositiveWidth()'><b>getPositiveWidth</b><br>Test class: calc.TestNGRectangleTest</td>
+<td></td>
+<td>0</td>
+<td>calc.TestNGRectangleTest@4c9f8c13</td></tr>
+<tr>
+<td title='calc.TestNGRectangleTest.setDoubleLength()'><b>setDoubleLength</b><br>Test class: calc.TestNGRectangleTest</td>
+<td></td>
+<td>0</td>
+<td>calc.TestNGRectangleTest@4c9f8c13</td></tr>
+<tr>
+<td title='calc.TestNGRectangleTest.setZeroWidth()'><b>setZeroWidth</b><br>Test class: calc.TestNGRectangleTest</td>
+<td></td>
+<td>0</td>
+<td>calc.TestNGRectangleTest@4c9f8c13</td></tr>
+<tr>
+<td title='people.TestNGnotRelevantAgeTest.setNotRelevantAgeToSetterAQA()'><b>setNotRelevantAgeToSetterAQA</b><br>Test class: people.TestNGnotRelevantAgeTest<br>Parameters: 17</td>
+<td><div><pre>java.lang.IllegalArgumentException: Age must be from 18 to 65
+	at people.Person.ageAdmission(Person.java:23)
+	at people.Person.setAge(Person.java:18)
+	at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToSetterAQA(TestNGnotRelevantAgeTest.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace471579726", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace471579726'><pre>java.lang.IllegalArgumentException: Age must be from 18 to 65
+	at people.Person.ageAdmission(Person.java:23)
+	at people.Person.setAge(Person.java:18)
+	at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToSetterAQA(TestNGnotRelevantAgeTest.java:31)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>people.TestNGnotRelevantAgeTest@6f96c77</td></tr>
+<tr>
+<td title='people.TestNGnotRelevantAgeTest.setNotRelevantAgeToSetterQA()'><b>setNotRelevantAgeToSetterQA</b><br>Test class: people.TestNGnotRelevantAgeTest<br>Parameters: -20</td>
+<td><div><pre>java.lang.IllegalArgumentException: Age must be from 18 to 65
+	at people.Person.ageAdmission(Person.java:23)
+	at people.Person.setAge(Person.java:18)
+	at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToSetterQA(TestNGnotRelevantAgeTest.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1574598287", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1574598287'><pre>java.lang.IllegalArgumentException: Age must be from 18 to 65
+	at people.Person.ageAdmission(Person.java:23)
+	at people.Person.setAge(Person.java:18)
+	at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToSetterQA(TestNGnotRelevantAgeTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>people.TestNGnotRelevantAgeTest@6f96c77</td></tr>
+<tr>
+<td title='people.TestNGnotRelevantAgeTest.setNotRelevantAgeToConstructorAQA()'><b>setNotRelevantAgeToConstructorAQA</b><br>Test class: people.TestNGnotRelevantAgeTest<br>Parameters: 17</td>
+<td><div><pre>java.lang.IllegalArgumentException: Age must be from 18 to 65
+	at people.Person.ageAdmission(Person.java:23)
+	at people.Person.&lt;init&gt;(Person.java:9)
+	at people.Engineer.&lt;init&gt;(Engineer.java:9)
+	at people.AutomatedEngineer.&lt;init&gt;(AutomatedEngineer.java:8)
+	at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToConstructorAQA(TestNGnotRelevantAgeTest.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1026055550", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1026055550'><pre>java.lang.IllegalArgumentException: Age must be from 18 to 65
+	at people.Person.ageAdmission(Person.java:23)
+	at people.Person.&lt;init&gt;(Person.java:9)
+	at people.Engineer.&lt;init&gt;(Engineer.java:9)
+	at people.AutomatedEngineer.&lt;init&gt;(AutomatedEngineer.java:8)
+	at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToConstructorAQA(TestNGnotRelevantAgeTest.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>people.TestNGnotRelevantAgeTest@6f96c77</td></tr>
+<tr>
+<td title='calc.TestNGRectangleTest.getAreaWithPositiveNums()'><b>getAreaWithPositiveNums</b><br>Test class: calc.TestNGRectangleTest</td>
+<td></td>
+<td>0</td>
+<td>calc.TestNGRectangleTest@4c9f8c13</td></tr>
+<tr>
+<td title='calc.TestNGEvenOddCheckerTest.oddCheck()'><b>oddCheck</b><br>Test class: calc.TestNGEvenOddCheckerTest</td>
+<td></td>
+<td>0</td>
+<td>calc.TestNGEvenOddCheckerTest@769f71a9</td></tr>
+<tr>
+<td title='calc.TestNGCalculatorTest.positiveNumsMultiply()'><b>positiveNumsMultiply</b><br>Test class: calc.TestNGCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>calc.TestNGCalculatorTest@1677d1</td></tr>
+<tr>
+<td title='calc.TestNGRectangleTest.getAreaWithFirsNegativeNum()'><b>getAreaWithFirsNegativeNum</b><br>Test class: calc.TestNGRectangleTest</td>
+<td></td>
+<td>0</td>
+<td>calc.TestNGRectangleTest@4c9f8c13</td></tr>
+<tr>
+<td title='people.TestNGnotRelevantAgeTest.setNotRelevantAgeToConstructorQA()'><b>setNotRelevantAgeToConstructorQA</b><br>Test class: people.TestNGnotRelevantAgeTest<br>Parameters: 66</td>
+<td><div><pre>java.lang.IllegalArgumentException: Age must be from 18 to 65
+	at people.Person.ageAdmission(Person.java:23)
+	at people.Person.&lt;init&gt;(Person.java:9)
+	at people.Engineer.&lt;init&gt;(Engineer.java:9)
+	at people.ManualEngineer.&lt;init&gt;(ManualEngineer.java:8)
+	at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToConstructorQA(TestNGnotRelevantAgeTest.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace752316209", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace752316209'><pre>java.lang.IllegalArgumentException: Age must be from 18 to 65
+	at people.Person.ageAdmission(Person.java:23)
+	at people.Person.&lt;init&gt;(Person.java:9)
+	at people.Engineer.&lt;init&gt;(Engineer.java:9)
+	at people.ManualEngineer.&lt;init&gt;(ManualEngineer.java:8)
+	at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToConstructorQA(TestNGnotRelevantAgeTest.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>people.TestNGnotRelevantAgeTest@6f96c77</td></tr>
+<tr>
+<td title='calc.TestNGCalculatorTest.positiveNumsSum()'><b>positiveNumsSum</b><br>Test class: calc.TestNGCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>calc.TestNGCalculatorTest@1677d1</td></tr>
+<tr>
+<td title='calc.TestNGCalculatorTest.positiveMultiplyNegative()'><b>positiveMultiplyNegative</b><br>Test class: calc.TestNGCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>calc.TestNGCalculatorTest@1677d1</td></tr>
+<tr>
+<td title='calc.TestNGCalculatorTest.divideByZero()'><b>divideByZero</b><br>Test class: calc.TestNGCalculatorTest</td>
+<td><div><pre>java.lang.ArithmeticException: / by zero
+	at calc.Calculator.divide(Calculator.java:18)
+	at calc.TestNGCalculatorTest.divideByZero(TestNGCalculatorTest.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace928294079", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace928294079'><pre>java.lang.ArithmeticException: / by zero
+	at calc.Calculator.divide(Calculator.java:18)
+	at calc.TestNGCalculatorTest.divideByZero(TestNGCalculatorTest.java:79)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>calc.TestNGCalculatorTest@1677d1</td></tr>
+<tr>
+<td title='people.TestNGnotRelevantAgeTest.setNotRelevantAgeToConstructorAQA()'><b>setNotRelevantAgeToConstructorAQA</b><br>Test class: people.TestNGnotRelevantAgeTest<br>Parameters: -20</td>
+<td><div><pre>java.lang.IllegalArgumentException: Age must be from 18 to 65
+	at people.Person.ageAdmission(Person.java:23)
+	at people.Person.&lt;init&gt;(Person.java:9)
+	at people.Engineer.&lt;init&gt;(Engineer.java:9)
+	at people.AutomatedEngineer.&lt;init&gt;(AutomatedEngineer.java:8)
+	at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToConstructorAQA(TestNGnotRelevantAgeTest.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1073763441", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1073763441'><pre>java.lang.IllegalArgumentException: Age must be from 18 to 65
+	at people.Person.ageAdmission(Person.java:23)
+	at people.Person.&lt;init&gt;(Person.java:9)
+	at people.Engineer.&lt;init&gt;(Engineer.java:9)
+	at people.AutomatedEngineer.&lt;init&gt;(AutomatedEngineer.java:8)
+	at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToConstructorAQA(TestNGnotRelevantAgeTest.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>people.TestNGnotRelevantAgeTest@6f96c77</td></tr>
+<tr>
+<td title='calc.TestNGRectangleTest.getNegativeWidth()'><b>getNegativeWidth</b><br>Test class: calc.TestNGRectangleTest</td>
+<td></td>
+<td>0</td>
+<td>calc.TestNGRectangleTest@4c9f8c13</td></tr>
+<tr>
+<td title='people.TestNGnotRelevantAgeTest.setNotRelevantAgeToSetterQA()'><b>setNotRelevantAgeToSetterQA</b><br>Test class: people.TestNGnotRelevantAgeTest<br>Parameters: 17</td>
+<td><div><pre>java.lang.IllegalArgumentException: Age must be from 18 to 65
+	at people.Person.ageAdmission(Person.java:23)
+	at people.Person.setAge(Person.java:18)
+	at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToSetterQA(TestNGnotRelevantAgeTest.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace484589713", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace484589713'><pre>java.lang.IllegalArgumentException: Age must be from 18 to 65
+	at people.Person.ageAdmission(Person.java:23)
+	at people.Person.setAge(Person.java:18)
+	at people.TestNGnotRelevantAgeTest.setNotRelevantAgeToSetterQA(TestNGnotRelevantAgeTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>people.TestNGnotRelevantAgeTest@6f96c77</td></tr>
+<tr>
+<td title='calc.TestNGRectangleTest.getAreaWithDoubleNums()'><b>getAreaWithDoubleNums</b><br>Test class: calc.TestNGRectangleTest</td>
+<td></td>
+<td>0</td>
+<td>calc.TestNGRectangleTest@4c9f8c13</td></tr>
+<tr>
+<td title='calc.TestNGRectangleTest.getDoubleLength()'><b>getDoubleLength</b><br>Test class: calc.TestNGRectangleTest</td>
+<td></td>
+<td>0</td>
+<td>calc.TestNGRectangleTest@4c9f8c13</td></tr>
+<tr>
+<td title='calc.TestNGRectangleTest.getAreaWithSecondNegativeNum()'><b>getAreaWithSecondNegativeNum</b><br>Test class: calc.TestNGRectangleTest</td>
+<td></td>
+<td>0</td>
+<td>calc.TestNGRectangleTest@4c9f8c13</td></tr>
 </table><p>
 </body>
 </html>
